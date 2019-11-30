@@ -547,14 +547,7 @@ footer{
 
 @media(max-width: 425px){
 
-	.section1{
-		padding-top: 5rem;
-		padding-right: 1rem;
-		padding-left: 1rem;
-		padding-bottom: 0;
-		height: 80vh;
-	}
-	.section2, .section3, .section4, .section5, .section6, .section7, footer{
+	.section1, .section2, .section3, .section4, .section5, .section6, .section7, footer{
 		padding: 5rem 1rem 7rem 1rem;
 	}
 	.navbar-toggler{
@@ -572,7 +565,9 @@ footer{
 	.sticky_top + .content {
 	  padding-top: 50px;
 	}
-
+	.section1{
+		height: 60vh;
+	}
 	.banner{
 		padding:0;
 	}
