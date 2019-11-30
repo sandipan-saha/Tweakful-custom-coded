@@ -449,7 +449,7 @@ footer{
 
 @media(min-width: 1440px){
 	.section1{
-		height: 75vh;
+		height: 72vh;
 	}
 	.section2 .card{
 		max-width: 368px;
