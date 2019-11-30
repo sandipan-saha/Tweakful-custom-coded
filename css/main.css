@@ -48,7 +48,7 @@ nav{
 	border-radius: 25px;
 }
 .sticky_top{
-  	position: fixed;
+    position: fixed;
     top: 0;
     padding-top: 30px;
     width: 100%;
@@ -65,7 +65,7 @@ nav{
 /*---------- Section 1 ----------*/
 .section1{
 	width: 100vw;
-	height: 100vh;
+	height: 80vh;
 	background-color: #ECF3BF;
 	/*padding-top: 7rem;
 	padding-left: 11rem;
@@ -548,7 +548,10 @@ footer{
 @media(max-width: 425px){
 
 	.section1{
-		padding: 5rem 1rem 0 1rem;
+		padding-top: 5rem;
+		padding-right: 1rem;
+		padding-left: 1rem;
+		padding-bottom: 0;
 	}
 	.section2, .section3, .section4, .section5, .section6, .section7, footer{
 		padding: 5rem 1rem 7rem 1rem;
