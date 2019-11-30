@@ -65,7 +65,7 @@ nav{
 /*---------- Section 1 ----------*/
 .section1{
 	width: 100vw;
-	height: 95vh;
+	height: 100vh;
 	background-color: #ECF3BF;
 	/*padding-top: 7rem;
 	padding-left: 11rem;
@@ -446,6 +446,19 @@ footer{
 
 /*=============================================
 =============== Media queries ===============*/
+
+@media(min-width: 1440px){
+	.section1{
+		height: 65vh;
+	}
+	.section2 .card{
+		max-width: 368px;
+	}
+	.sec4-heading{
+		padding-left: 7rem;
+		padding-right: 7rem;
+	}
+}
 
 @media(max-width: 1024px){
 	nav{
