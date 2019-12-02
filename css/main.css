@@ -585,11 +585,11 @@ footer{
 		padding:0;
 	}
 	.banner-heading {
-    	font-size: 34px;
-    	line-height: 45px;
-    }
-    .banner-heading span {
-	    border-bottom: 5px solid #D3F28F;
+		font-size: 34px;
+		line-height: 45px;
+	}
+	.banner-heading span {
+	    	border-bottom: 5px solid #D3F28F;
 	}
 	.banner-subtext {
 	    font-size: 16px;
@@ -598,33 +598,37 @@ footer{
 		margin-top: 3rem;
 	}
 	.banner-button button {
-    	min-width: 250px;
-    }
+    		min-width: 250px;
+        }
 
-    .sec2-subtext{
-    	font-size: 16px;
-    }
-    .sec2-heading{
-    	font-size: 32px;
-    	line-height: 40px;
-    }
-    .section2 .card-row{
-    	margin-top: 2rem;
-    }
-    .section2 .card{
-    	max-width: 100%;
-    	margin-top: 3rem;
-    	margin-bottom: 1rem;
-    }
-    .connector{
-    	margin:0 auto;
-    	transform: rotate(90deg);
-    }
+    	.sec2-subtext{
+    		font-size: 16px;
+	}
+	.sec2-heading{
+		font-size: 32px;
+		line-height: 40px;
+	}
+	.section2 .card-row{
+		margin-top: 2rem;
+	}
+	.section2 .card{
+		max-width: 100%;
+		margin-top: 3rem;
+		margin-bottom: 1rem;
+	}
+	.connector{
+		margin:0 auto;
+		transform: rotate(90deg);
+	}
 
-    .sec3-heading {
+	.sec3-heading {
 	    font-size: 32px;
 	    line-height: 50px;
 	    margin-bottom: 10px;
+	}
+	.section3 .card-img{
+		width: 300px;
+		margin: 0 auto;
 	}
 	.header-liner{
 		display: block !important;
